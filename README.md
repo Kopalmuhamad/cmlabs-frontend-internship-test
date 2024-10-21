@@ -1,27 +1,28 @@
-# Meal Tracker Website
+# Meal List
 
-Website ini adalah aplikasi web yang memungkinkan pengguna untuk menjelajahi berbagai kategori makanan dan melihat detail resep untuk setiap makanan. Aplikasi ini menggunakan [TheMealDB](https://www.themealdb.com/) sebagai sumber data untuk kategori makanan dan detail resep.
+This website is a web application that allows users to explore various food categories and view recipe details for each dish. The application uses TheMealDB as the data source for food categories and recipe details.
 
 ## Fitur
 
-- **Navigasi Kategori**: Pengguna dapat melihat daftar kategori makanan.
-- **Detail Makanan**: Setelah memilih kategori, pengguna dapat melihat daftar makanan dalam kategori tersebut.
-- **Resep Makanan**: Pengguna dapat melihat detail lengkap resep makanan termasuk bahan-bahan dan instruksi.
-- **Responsive**: Desain yang responsif untuk tampilan di berbagai perangkat.
+- **Category Navigation**: Users can view a list of food categories.
+- **Food Details**: After selecting a category, users can see a list of dishes within that category.
+- **Recipe Details**: Users can view the complete recipe details, including ingredients and instructions.
+- **Responsive**: A responsive design for display on various devices.
 
-## Teknologi yang Digunakan
+## Technologies Used
 
-- **HTML**: Struktur dasar website.
-- **CSS**: Gaya menggunakan Tailwind CSS.
-- **JavaScript**: Interaksi dan pemanggilan API.
-- **API**: TheMealDB untuk data makanan.
+- **HTML**: Basic structure of the website.
+- **CSS**: Basic styling.
+- **TailwindCSS**: Styling using Tailwind CSS.
+- **JavaScript**: Interaction and API calls.
+- **API**: TheMealDB for food data.
 
-## Instalasi
+## Installation
 
-1. Clone repositori ini:
+1. Clone this repository:
    ```bash
    git clone https://github.com/Kopalmuhamad/cmlabs-frontend-internship-test.git
-   cd repo-name.
+   cd cmlabs-frontend-internship-test
 
 2. Run "npm i" in terminal.
 
