@@ -20,7 +20,7 @@ Website ini adalah aplikasi web yang memungkinkan pengguna untuk menjelajahi ber
 
 1. Clone repositori ini:
    ```bash
-   git clone https://github.com/username/repo-name.git
+   git clone https://github.com/Kopalmuhamad/cmlabs-frontend-internship-test.git
    cd repo-name.
 
 2. Run "npm i" in terminal.
