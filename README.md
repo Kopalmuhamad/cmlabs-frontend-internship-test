@@ -9,27 +9,6 @@ Website ini adalah aplikasi web yang memungkinkan pengguna untuk menjelajahi ber
 - **Resep Makanan**: Pengguna dapat melihat detail lengkap resep makanan termasuk bahan-bahan dan instruksi.
 - **Responsive**: Desain yang responsif untuk tampilan di berbagai perangkat.
 
-## Struktur Folder
-
-├── public
-    └── style 
-        └──  style.css
-    └── app.js
-    └── index.html
-    └── category.js
-    └── category.html
-    └── meal.js
-    └── meal.html
-├── src
-    └── style 
-        └──  style.css
-├── .gitignore
-├── package-lock.json
-├── package.json
-├── postcss.config.js
-├── README.md
-├── tailwind.config.js
-
 ## Teknologi yang Digunakan
 
 - **HTML**: Struktur dasar website.
