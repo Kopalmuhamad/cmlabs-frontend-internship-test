@@ -24,9 +24,9 @@ This website is a web application that allows users to explore various food cate
    git clone https://github.com/Kopalmuhamad/cmlabs-frontend-internship-test.git
    cd cmlabs-frontend-internship-test
 
-2. Run "npm i" in terminal.
+2. Run **"npm i"** in terminal.
 
-3. Run the tailwind cli build process in terminal by "npx tailwindcss -i ./src/style/input.css -o style/style.css --watch"
+3. Run the tailwind cli build process in terminal by **"npx tailwindcss -i ./src/style/input.css -o style/style.css --watch"**
 
 4. If you have followed the installation guide above, you can access the application now. You can open the application in various ways such as: double clicking on the 
 - **index.html** file.
