@@ -14,7 +14,7 @@ fetch('https://www.themealdb.com/api/json/v1/1/categories.php')
       `;
 
       categoryDiv.addEventListener('click', () => {
-        window.location.href = `category.html?category=${category.strCategory}`;
+        window.location.href = `/public/category.html?category=${category.strCategory}`;
       });
 
       categoriesContainer.appendChild(categoryDiv);

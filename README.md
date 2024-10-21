@@ -21,4 +21,13 @@ Website ini adalah aplikasi web yang memungkinkan pengguna untuk menjelajahi ber
 1. Clone repositori ini:
    ```bash
    git clone https://github.com/username/repo-name.git
-   cd repo-name
+   cd repo-name.
+
+2. Run "npm i" in terminal.
+
+3. Run the tailwind cli build process in terminal by "npx tailwindcss -i ./src/style/input.css -o style/style.css --watch"
+
+4. If you have followed the installation guide above, you can access the application now. You can open the application in various ways such as: double clicking on the 
+- **index.html** file.
+- **Live Server**
+- **Live Preview**
