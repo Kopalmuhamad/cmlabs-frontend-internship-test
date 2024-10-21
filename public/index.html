@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meal Categories</title>
+  <link href="style/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+  <!-- Navbar Start -->
+  <nav class="w-full py-4 sticky top-0 left-0 right-0 bg-white shadow-xl">
+    <div class="container mx-auto">
+      <a href="#" class="text-base font-semibold md:text-lg xl:text-xl">
+        List Meals
+      </a>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <!-- Content Start -->
+  <div class="container mx-auto space-y-8 pt-10">
+    <!-- Hero Start -->
+    <section class="container mx-auto rounded-lg space-y-4 bg-zinc-200 px-4 py-10">
+      <div class="w-full flex items-center justify-center gap-3">
+        <i class="fa-solid fa-wine-glass-empty text-2xl text-red-400"></i>
+        <i class="fa-solid fa-drumstick-bite text-2xl text-red-400"></i>
+        <i class="fa-solid fa-cookie text-2xl text-red-400"></i>
+      </div>
+      <h1 class="text-base font-semibold text-center pt-3">List Meal App</h1>
+      <h2 class="text-2xl md:text-3xl xl:text-4xl font-bold text-center pt-8">See All The Delicious Food</h2>
+    </section>
+    <!-- Hero Start -->
+    <!-- List Category Start -->
+    <section class="space-y-4 pb-8">
+      <header class="w-full py-2">
+        <h1 class="text-3xl font-bold text-center">Meal Categories</h1>
+      </header>
+      <div id="categories" class="grid grid-cols-2 md:grid-cols-4 gap-4 pt-2"></div>
+    </section>
+    <!-- List Category End -->
+  </div>
+  <!-- Content End -->
+
+  <script src="app.js"></script>
+</body>
+
+</html>

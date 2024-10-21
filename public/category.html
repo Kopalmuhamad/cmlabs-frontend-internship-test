@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Category Detail</title>
+  <link href="style/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar Start -->
+  <nav class="w-full py-4 sticky top-0 left-0 right-0 bg-white shadow-xl">
+    <div class="container mx-auto">
+      <a href="#" class="text-base font-semibold md:text-lg xl:text-xl">
+        List Meals
+      </a>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <!-- Breadcrumb Start -->
+  <div class="container mx-auto pt-6 pb-8">
+    <nav class="text-gray-700 mb-4">
+      <ol class="list-reset flex">
+        <li>
+          <a href="index.html" class="hover:underline">Home</a>
+        </li>
+        <li>
+          <span class="mx-2 text-gray-500">/</span>
+        </li>
+        <li id="breadcrumb-category">
+        </li>
+      </ol>
+    </nav>
+  </div>
+  <!-- Breadcrumb End -->
+
+  <div class="container mx-auto">
+    <!-- List Category Start -->
+    <section class="space-y-4 pb-8">
+      <header class="w-full py-2">
+        <h1 id="category-title" class="text-3xl font-bold text-center"></h1>
+      </header>
+      <div id="meals" class="grid grid-cols-2 md:grid-cols-4 gap-4 pt-2"></div>
+    </section>
+    <!-- List Category End -->
+  </div>
+
+  <script src="category.js"></script>
+</body>
+
+</html>
